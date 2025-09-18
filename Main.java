@@ -16,5 +16,31 @@ public class Main {
       String player = input.nextLine();
       System.out.println("welcome, " + player);
 
+      // Create variables for each placeholder word
+      String adjective = "sunny ";
+
+      // Print your story line by line
+      System.out.println("It was a " + adjective + "july day.");
+
+      String place = "house ";
+      String noun = "farts";
+   System.out.println("I walked to my friends " + place + "and on the way I smelled a lot of " + noun + ".");
+
+      String place2 = "house ";
+      String emotion = "sad ";
+      System.out.println("When I got to his " + place2 + "I instantly felt " + emotion + ".");
+
+      String bodypart = "foot ";
+      String noun2 = "choclate ";
+      String movment = "griddying ";
+      String noise = "growling ";
+
+      System.out.println("His " + bodypart + "was covered in" + noun2 + ", and I saw my friend " + movment + "to " + noise + "noises.");
+
+      String object = "pencil case";
+      String noun3 = "table";
+      System.out.println("I sat down on the " + object + "and turned on the " + noun + ".");
+
+      String noun4 
    }
 }
