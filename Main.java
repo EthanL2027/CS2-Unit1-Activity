@@ -35,12 +35,21 @@ public class Main {
       String movment = "griddying ";
       String noise = "growling ";
 
-      System.out.println("His " + bodypart + "was covered in" + noun2 + ", and I saw my friend " + movment + "to " + noise + "noises.");
+      System.out.println("His " + bodypart + "was covered in " + noun2 + ", and I saw my friend " + movment + "to " + noise + "noises.");
 
-      String object = "pencil case";
+      String object = "pencil case ";
       String noun3 = "table";
       System.out.println("I sat down on the " + object + "and turned on the " + noun + ".");
 
-      String noun4 
+      String noun4 = "baseball";
+      System.out.println("Then a ginormous " + noun4 + " came crashing through the window.");
+
+      String noun5 = "baseball";
+      String adjective1 = "funny";
+      String person = "alien";
+      String movement2 = "jumping jacks";
+      System.out.println("When the giant " + noun5 + " opened up we saw a " + adjective1  +  person + " and he started " + movement2 + " at a really odd pace" );
+
+
    }
 }
