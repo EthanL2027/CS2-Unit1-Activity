@@ -17,37 +17,61 @@ public class Main {
       System.out.println("welcome, " + player);
 
       // Create variables for each placeholder word
-      String adjective = "sunny ";
+      System.out.println("Enter an adjective");
+      String adjective = input.nextLine();
+
+    
+
+   System.out.println("Enter a place");
+   String place = input.nextLine();
+   System.out.println("Enter a noun");
+      String noun = input.nextLine();
+   
+
+      System.out.println("Enter a place");
+       String place2 = input.nextLine();
+      System.out.println("Enter an emotion");
+      String emotion = input.nextLine();
+      
+
+      System.out.println("Enter a bodypart");
+      String bodypart = input.nextLine();
+      System.out.println("Enter a noun");
+      String noun2 = input.nextLine();
+      System.out.println("Enter a movement");
+      String movment = input.nextLine();
+      System.out.println("Enter a noise");
+      String noise = input.nextLine();
+
+      
+
+      System.out.println("Enter a object");
+      String object = input.nextLine();
+      System.out.println("Enter a noun");
+      String noun3 = input.nextLine();
+      
+
+      System.out.println("Enter a noun");
+      String noun4 = input.nextLine();
+      
+
+      System.out.println("Enter a noun");
+      String noun5 = input.nextLine();
+      System.out.println("Enter an adjective");
+      String adjective1 = input.nextLine();
+      System.out.println("Enter a person");
+      String person = input.nextLine();
+      System.out.println("Enter a movement");
+      String movement2 = input.nextLine();
+      
 
       // Print your story line by line
       System.out.println("It was a " + adjective + "july day.");
-
-      String place = "house ";
-      String noun = "farts";
-   System.out.println("I walked to my friends " + place + "and on the way I smelled a lot of " + noun + ".");
-
-      String place2 = "house ";
-      String emotion = "sad ";
+      System.out.println("I walked to my friends " + place + "and on the way I smelled a lot of " + noun + ".");
       System.out.println("When I got to his " + place2 + "I instantly felt " + emotion + ".");
-
-      String bodypart = "foot ";
-      String noun2 = "choclate ";
-      String movment = "griddying ";
-      String noise = "growling ";
-
       System.out.println("His " + bodypart + "was covered in " + noun2 + ", and I saw my friend " + movment + "to " + noise + "noises.");
-
-      String object = "pencil case ";
-      String noun3 = "table";
-      System.out.println("I sat down on the " + object + "and turned on the " + noun + ".");
-
-      String noun4 = "baseball";
+      System.out.println("I sat down on the " + object + "and turned on the " + noun3 + ".");
       System.out.println("Then a ginormous " + noun4 + " came crashing through the window.");
-
-      String noun5 = "baseball";
-      String adjective1 = "funny";
-      String person = "alien";
-      String movement2 = "jumping jacks";
       System.out.println("When the giant " + noun5 + " opened up we saw a " + adjective1  +  person + " and he started " + movement2 + " at a really odd pace" );
 
 
